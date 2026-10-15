@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cd \"E:\\\\Shaurya\\\\HeartShield\\\\Front-end\"; $config = Get-Content next.config.mjs | Out-String; Write-Host \"Frontend Config:`n$config\")",
+      "PowerShell(cd \"E:\\\\Shaurya\\\\HeartShield\\\\Back-end\"; $response = Invoke-WebRequest -Uri \"http://localhost:8000/health\" -ErrorAction SilentlyContinue; if \\($response.StatusCode -eq 200\\) { \"✅ Server is responding!\"; $response.Content } else { \"⚠ Server responded with code: \" + $response.StatusCode })"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+# Environment Variables (NEVER commit these)
+Back-end/.env
+Front-end/.env.local
+
+# Virtual Environments
+Back-end/venv/
+Back-end/.venv/
+Front-end/node_modules/
+
+# Dependencies
+Back-end/__pycache__/
+Back-end/*.pyc
+Back-end/.pytest_cache/
+Back-end/.eggs/
+
+# Next.js
+Front-end/.next/
+Front-end/dist/
+Front-end/out/
+
+# Build artifacts
+Back-end/build/
+Back-end/dist/
+
+# Database files
+Back-end/*.db
+Back-end/*.sqlite
+Back-end/reports_storage/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Logs
+*.log
+logs/
